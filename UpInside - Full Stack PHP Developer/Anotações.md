@@ -19,8 +19,8 @@ Ex: Design patterns, padrão MVC.
 São ontologias com modelos de dados que representam um conjunto de conceitos possuindo o domínio da aplicação e os relacionamentos entre ela.
 
 São sistemas fechados.
-Ex: frameworks, quando se usa um framework o desenvolvedor tem que se adaptar as regras do framework.
+Ex: Frameworks, CMS's quando se usa um framework ou cms o desenvolvedor tem que se adaptar as regras do framework.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTY4ODM4Myw3Mzc0MDM2MjAsMTY5OD
-gyMDEyNl19
+eyJoaXN0b3J5IjpbMTQyMDY1MjQxNywxNjA5Njg4MzgzLDczNz
+QwMzYyMCwxNjk4ODIwMTI2XX0=
 -->
