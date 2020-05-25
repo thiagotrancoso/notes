@@ -13,6 +13,7 @@ Fundadores da Zend Technologies e principais responsáveis pelo desenvolvimento 
 
 **open standard = interoperabilidade técnica**
 São *padrões abertos*, livres e disponíveis para acesso e implementação que independem de royalties, outras taxas ou discriminação d uso.
+Ex: padrão MVC.
 
 **ontologies = interoperabilidade semântica**
 São ontologias com modelos de dados que representam um conjunto de conceitos possuindo o domínio da aplicação e os relacionamentos entre ela.
@@ -20,5 +21,6 @@ São ontologias com modelos de dados que representam um conjunto de conceitos po
 São sistemas fechados.
 Ex: frameworks, quando se usa um framework o desenvolvedor tem que se adaptar as regras do framework.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3NDAzNjIwLDE2OTg4MjAxMjZdfQ==
+eyJoaXN0b3J5IjpbNzY0MzQ0NjU2LDczNzQwMzYyMCwxNjk4OD
+IwMTI2XX0=
 -->
