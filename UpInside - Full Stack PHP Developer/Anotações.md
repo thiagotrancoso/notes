@@ -16,6 +16,9 @@ São *padrões abertos*, livres e disponíveis para acesso e implementação que
 
 **ontologies = interoperabilidade semântica**
 São ontologias com modelos de dados que representam um conjunto de conceitos possuindo o domínio da aplicação e os relacionamentos entre ela.
+
+São sistemas fechados.
+Ex: frameworks, quando se usa um framework o desenvolvedor tem que se adaptar as regras do framework.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODgyMDEyNl19
+eyJoaXN0b3J5IjpbNzM3NDAzNjIwLDE2OTg4MjAxMjZdfQ==
 -->
