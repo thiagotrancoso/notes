@@ -2,13 +2,15 @@
 
 Este tutorial vai te mostrar como habilitar o HTTPS para todos os seus projetos que são desenvolvidos em ambiente local.
 
-Ao final você acessara seu site assim:
+Ao final desse tutorial você acessará seus projetos como no exemplo abaixo:
 https://localhost.test
 https://meuprojeto.test
 https://gosteidisso.test
 
+## Parte 1
+### Bi
 
-#### Habilitar os módulos do apache
+### Habilitar os módulos do apache
 Dentro da pasta do apache, abra o arquivo `conf/httpd.conf`.
 Descomente as linhas abaixo.
 ```
@@ -44,5 +46,5 @@ Reinicie o apache.
 Pronto!!!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzE2ODI1N119
+eyJoaXN0b3J5IjpbLTM3ODQ2MDAyNV19
 -->
