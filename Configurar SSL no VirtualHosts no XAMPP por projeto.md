@@ -1,5 +1,7 @@
 # Configurar SSL no VirtualHosts no XAMPP por projeto
-Este tutorial vai te mostrar como configurar uma conexão segura para todos os seus projetos em localhost.
+
+Este tutorial vai te mostrar como habilitar o HTTPS para todos os seus projetos que são desenvolvidos em ambiente local.
+
 #### Habilitar os módulos do apache
 Dentro da pasta do apache, abra o arquivo `conf/httpd.conf`.
 Descomente as linhas abaixo.
@@ -36,5 +38,5 @@ Reinicie o apache.
 Pronto!!!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjUyMjk5NV19
+eyJoaXN0b3J5IjpbLTEzNzM4MTk5MjRdfQ==
 -->
