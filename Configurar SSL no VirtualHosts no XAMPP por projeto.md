@@ -11,9 +11,10 @@ https://gosteidisso.test
 ### Baixar o XAMPP
 Você pode baixar o instalador ou a versão portable, neste tutorial usarei a versão portable.
 
-Site para download:
+**Site para download:**
 [https://www.apachefriends.org/pt_br/index.html](https://www.apachefriends.org/pt_br/index.html)
 
+## Parte 2
 ### Habilitar os módulos do apache
 Dentro da pasta do apache, abra o arquivo `conf/httpd.conf`.
 Descomente as linhas abaixo.
@@ -50,5 +51,5 @@ Reinicie o apache.
 Pronto!!!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYyMDYwNDNdfQ==
+eyJoaXN0b3J5IjpbMTc0MzU0NTU5NV19
 -->
