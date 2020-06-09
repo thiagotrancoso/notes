@@ -8,7 +8,11 @@ https://meuprojeto.test
 https://gosteidisso.test
 
 ## Parte 1
-### Bi
+### Baixar o XAMPP
+Você pode baixar o instalador ou a versão portable, neste tutorial usarei a versão portable.
+
+Site para download:
+[https://www.apachefriends.org/pt_br/index.html](https://www.apachefriends.org/pt_br/index.html)
 
 ### Habilitar os módulos do apache
 Dentro da pasta do apache, abra o arquivo `conf/httpd.conf`.
@@ -46,5 +50,5 @@ Reinicie o apache.
 Pronto!!!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODQ2MDAyNV19
+eyJoaXN0b3J5IjpbLTIwMTYyMDYwNDNdfQ==
 -->
