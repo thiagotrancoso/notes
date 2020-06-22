@@ -2,13 +2,13 @@
 
 - [Importante](#importante)
 - [Instalação e configuração](#instalacao-e-configuracao)
-- [Programas necessários](#Programas-necessários)
-- [Download da box homestead vagrant](#Download-da-box-homestead-vagrant)
-- [Clonar o repositório homestead](#Clonar-o-repositório-homestead)
-- [Gerar os arquivos de configuração do homestead](#Gerar-os-arquivos-de-configuração-do-homestead)
-- [Configurar o arquivo Homestead.yaml](#Configurar-o-arquivo-homesteadyaml)
-- [Editando o arquivo Homestead.yaml após a inicialização da máquina virtual](#Editando-o-arquivo-Homesteadyaml-após-a-inicialização-da-máquina-virtual)
-- [Configurar hostname no arquivo hosts do windows](#Configurar-hostname-no-arquivo-hosts-do-windows)
+- [Programas necessários](#programas-necessarios)
+- [Download da box homestead vagrant](#download-da-box-homestead-vagrant)
+- [Clonar o repositório homestead](#clonar-o-repositorio-homestead)
+- [Gerar os arquivos de configuração do homestead](#gerar-os-arquivos-de-configuracao-do-homestead)
+- [Configurar o arquivo Homestead.yaml](#configurar-o-arquivo-homestead-yaml)
+- [Editando o arquivo Homestead.yaml após a inicialização da máquina virtual](#editando-o-arquivo-homestead-yaml-apos-a-inicializacao-da-maquina-virtual)
+- [Configurar hostname no arquivo hosts do windows](#configurar-hostname-no-arquivo-hosts-do-windows)
 - [Iniciar o homestead](#Iniciar-o-homestead)
 - [Acessar os projetos](#Acessar-os-projetos)
 - [Acessar a máquina virtual via ssh](#Acessar-a-máquina-virtual-via-ssh)
@@ -276,6 +276,6 @@ homestead  halt
 homestead  ssh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTM5Mjk3MjUsLTE1ODM0MTg1MjVdfQ
-==
+eyJoaXN0b3J5IjpbLTc0OTQ4MjI4MSwtMjA5MzkyOTcyNSwtMT
+U4MzQxODUyNV19
 -->
