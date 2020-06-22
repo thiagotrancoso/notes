@@ -172,35 +172,20 @@ cd  ~/Homestead
 vagrant  up
 ```
 
-  
-
 ## Acessar os projetos
-
 Acesse os projetos usando o `hostname` configurado no arquivo `hosts`.
 
-  
-
 `Ex: http://primeiro.test`
-
-  
 
 ## Acessar a máquina virtual via ssh
 
 ```php
-
 // Entre na pasta do homestead
-
 cd  ~/Homestead
 
-  
-
 // Conecte-se via ssh
-
 vagrant  ssh
-
 ```
-
-  
 
 ## Excluir a máquina virtual
 
@@ -208,29 +193,16 @@ vagrant  ssh
 
 Esses diretórios estarão na pasta do homestead `~/Homestead`.</span>
 
-  
-
 ```php
-
 // Entre na pasta do Homestead
-
 cd  ~/Homestead
 
-  
-
 // Iniciar a máquina virtual
-
 vagrant  up
 
-  
-
 // Excluir a máquina virtual
-
 vagrant  destroy
-
 ```
-
-  
 
 # Conectando no banco de dados
 
@@ -238,82 +210,43 @@ vagrant  destroy
 
 Para se conectar no banco usando a máquina host, deverá usar a porta configurada para a máquina host.</span>
 
-  
-
 Dados necessários para conexão com o banco. O usuário e senha é definido pelo homestead.
 
-  
-
 ```text
-
 MySQL
-
 IP: 127.0.0.1
-
 Porta: {definida no arquivo Homestead.yaml}
-
 Usuário: homestead
-
 Senha: secret
-
-  
 
 MariaDB
-
 IP: 127.0.0.1
-
 Porta: {definida no arquivo Homestead.yaml}
-
 Usuário: homestead
-
 Senha: secret
-
-  
 
 PostgreSQL
-
 IP: 127.0.0.1
-
 Porta: {definida no arquivo Homestead.yaml}
-
 Usuário: homestead
-
 Senha: secret
-
 ```
-
-  
 
 # Configurar o comando homestead para gerenciar a máquina virtual
 
 <span  class="obs">**[OBS]** Esta configuração é exclusiva para o Git Bash.</span>
 
-  
-
 Até o momento para gerenciar nossa máquina virtual precisavamos estar dentro da pasta do `Homestead`.
-
-  
 
 Vamos configurar para que possamos gerenciar a máquina virtual de qualquer lugar.
 
-  
-
 ```php
-
 // Entre na pasta do usuário
-
 cd  ~
 
-  
-
 // Crie um arquivo .bash_profile
-
 nano  .bash_profile
-
 ```
-
-  
-
 **Cole o código abaixo no arquivo criado**
 
 ```php
@@ -368,5 +301,5 @@ homestead  ssh
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA4NzA4MTNdfQ==
+eyJoaXN0b3J5IjpbMTcxMjcxNTM3M119
 -->
