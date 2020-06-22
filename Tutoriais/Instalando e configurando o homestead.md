@@ -125,93 +125,51 @@ features:
 #. send => porta na máquina host
 #. to => porta na máquina virtual
 ports:
-#. MariaDB
-    - send:  3306
+    #. MariaDB
+    - send: 3306
+      to: 3306
 
-to:  3306
-
-  
-
-#. PostgreSQL
-
--  send:  5432
-
-to:  5432
-
+    #. PostgreSQL
+    - send: 5432
+      to: 5432
 ```
-
-  
 
 ## Editando o arquivo Homestead.yaml após a inicialização da máquina virtual
 
-  
-
 Se você alterou o arquivo de configuração `Homestead.yaml` com a máquina virtual ativa execute o comando abaixo.
-
-  
 
 Este comando irá atualizar as configurações da máquina virtual.
 
-  
-
 ```bash
-
 vagrant reload --provision
-
 ```
-
-  
 
 ## Configurar hostname no arquivo hosts do windows
 
 Abra o arquivo `hosts` em `C:\Windows\System32\drivers\etc` e adicione os hostnames dos seus projetos.
 
-  
-
 <span  class="obs">**[OBS]** Este arquivo precisa ser editado com permissão de administrador.</span>
 
-  
-
 Ex: Arquivo `hosts`.
-
 ```text
-
 192.168.10.10 primeiro.test
-
 192.168.10.10 segundo.test
-
 192.168.10.10 terceiro.test
-
 ```
-
-  
 
 <span  class="obs">**[OBS]** **OBS:** O endereço IP listado acima é da máquina virtual definido no arquivo `Homestead.yaml`.</span>
 
-  
-
 ## Iniciar o homestead
-
 Ao iniciar a máquina virtual o Vagrant irá aplicar as configurações que estão no arquivo `Homestead.yaml`.
-
-  
 
 <span  class="obs">**[OBS]** A primeira inicialização da máquina virtual poderá demorar um pouco porque será criada a máquina virtual e aplicado toda a configuração.</span>
 
-  
-
 ```php
-
 // Entre na pasta do homestead
-
 cd  ~/Homestead
 
-  
-
 // Inicie a máquina virtual
-
 vagrant  up
-
 ```
 
   
@@ -410,5 +368,5 @@ homestead  ssh
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTMwMTk3MV19
+eyJoaXN0b3J5IjpbLTE3NDA4NzA4MTNdfQ==
 -->
