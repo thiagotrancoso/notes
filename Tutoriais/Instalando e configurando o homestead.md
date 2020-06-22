@@ -41,118 +41,63 @@ vagrant -v
 Esse processo demora um pouco.
 ```bash
 vagrant box add laravel/homestead
-
 ```
-
-  
 
 Aparecerá uma lista de softwares usados para vitualização.
 
 Informe o número referente ao `VirtualBox`.
 
-  
-
 ## Clonar o repositório homestead
-
 **Clonar o repositório homestead para a pasta do usuário.**
 
-  
-
 ```bash
-
 git clone https://github.com/laravel/homestead.git ~/Homestead
-
 ```
-
-  
 
 **Fazer checkout para última versão estável do Homestead**
-
 ```bash
-
 cd  ~/Homestead
-
 git checkout release
-
 ```
-
-  
 
 ## Gerar os arquivos de configuração do homestead
 
 Os arquivos gerados serão colocados no diretório Homestead `~/Homestead`.
-
-  
-
 **Arquivos que serão gerados:**
-
 - after.sh
-
 - aliases
-
 - Homestead.yaml
 
-  
-
 ```php
-
 // Entre na pasta do homestead
-
 cd  ~/Homestead
 
-  
-
 // Execute o comando abaixo para gerar os arquivos
-
 bash  init.sh
-
 ```
 
-  
-
 ## Configurar o arquivo Homestead.yaml
-
 Exemplo:
 
-  
-
 ```yaml
-
 #. Configurações da máquina virtual
-
 ip:  "192.168.10.10"
-
 memory:  1024
-
 cpus:  1
 
-  
-
 #. Software de virtualização
-
 provider:  virtualbox
 
-  
-
 #. Faz backup do banco quando exclui a máquina virtual
-
 backup:  true
 
-  
-
 #. CONFIGURAR PASTAS COMPARTILHADAS
-
 #. Certifique-se de criar as pastas no computador local antes de configurar as pastas compartilhadas
-
 #. map => caminho da pasta no computador local
-
 #. to => caminho da pasta no homestead
-
 folders:
-
 -  map:  D:\Projetos\primeiro
-
-to:  /home/vagrant/projetos/primeiro
+   to:  /home/vagrant/projetos/primeiro
 
   
 
@@ -494,5 +439,5 @@ homestead  ssh
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDU4ODQ5M119
+eyJoaXN0b3J5IjpbMTM3NDQ3MzY1M119
 -->
