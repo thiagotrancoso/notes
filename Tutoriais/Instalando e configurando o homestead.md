@@ -1,84 +1,45 @@
 # Índice
 
-- [Importante](#Importante)
+- [Importante](#importante)
 - [Instalação e configuração](#Instalação-e-configuração)
-
 - [Programas necessários](#Programas-necessários)
-
 - [Download da box homestead vagrant](#Download-da-box-homestead-vagrant)
-
 - [Clonar o repositório homestead](#Clonar-o-repositório-homestead)
-
 - [Gerar os arquivos de configuração do homestead](#Gerar-os-arquivos-de-configuração-do-homestead)
-
 - [Configurar o arquivo Homestead.yaml](#Configurar-o-arquivo-homesteadyaml)
-
 - [Editando o arquivo Homestead.yaml após a inicialização da máquina virtual](#Editando-o-arquivo-Homesteadyaml-após-a-inicialização-da-máquina-virtual)
-
 - [Configurar hostname no arquivo hosts do windows](#Configurar-hostname-no-arquivo-hosts-do-windows)
-
 - [Iniciar o homestead](#Iniciar-o-homestead)
-
 - [Acessar os projetos](#Acessar-os-projetos)
-
 - [Acessar a máquina virtual via ssh](#Acessar-a-máquina-virtual-via-ssh)
-
 - [Excluir a máquina virtual](#Excluir-a-máquina-virtual)
-
 - [Conectando no banco de dados](#Conectando-no-banco-de-dados)
-
 - [Configurar o comando homestead para gerenciar a máquina virtual](#Configurar-o-comando-homestead-para-gerenciar-a-máquina-virtual)
 
-  
-
 # Importante
-
 - Tutorial feito no windows 10 pro.
-
 - Todos os comandos neste tutorial serão executados usando o Git Bash.
-
 - Algumas configurações serão exclusivas para o Git Bash.
-
 - O simbolo `~` indica a pasta do usuário.
 
-  
-
 # Instalação e configuração
-
 ## Programas necessários
-
 Instale os programas abaixo em seu pc.
-
 - Virtual Box (https://www.virtualbox.org)
-
 - Vagrant (https://www.vagrantup.com)
-
 - Git (https://git-scm.com)
 
-  
-
 **Verificar a versão do vagrant**
-
 ```bash
-
 vagrant -v
-
 ```
-
-  
 
 ## Download da box homestead vagrant
 
 <span  class="obs">**[OBS]** A `box` é a imagem da máquina virtual.</span>
 
-  
-
 Esse processo demora um pouco.
-
-  
-
 ```bash
-
 vagrant box add laravel/homestead
 
 ```
@@ -533,5 +494,5 @@ homestead  ssh
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTEyODMwMDldfQ==
+eyJoaXN0b3J5IjpbMTA5MDU4ODQ5M119
 -->
