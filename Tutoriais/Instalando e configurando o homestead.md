@@ -1,7 +1,7 @@
 # Índice
 
 - [Importante](#importante)
-- [Instalação e configuração](#Instalação-e-configuração)
+- [Instalação e configuração](#instalacao-e-configuracao)
 - [Programas necessários](#Programas-necessários)
 - [Download da box homestead vagrant](#Download-da-box-homestead-vagrant)
 - [Clonar o repositório homestead](#Clonar-o-repositório-homestead)
@@ -276,5 +276,6 @@ homestead  halt
 homestead  ssh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM0MTg1MjVdfQ==
+eyJoaXN0b3J5IjpbLTIwOTM5Mjk3MjUsLTE1ODM0MTg1MjVdfQ
+==
 -->
