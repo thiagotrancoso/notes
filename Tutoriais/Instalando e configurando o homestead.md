@@ -99,63 +99,34 @@ folders:
 -  map:  D:\Projetos\primeiro
    to:  /home/vagrant/projetos/primeiro
 
-  
-
 -  map:  D:\Projetos\segundo
-
-to:  /home/vagrant/projetos/segundo
-
-  
+   to:  /home/vagrant/projetos/segundo
 
 #. CONFIGURAR SITES NGINX
-
 #. map => domínio a ser digitado no navegador
-
 #. to => diretório público do projeto no homestead
-
 sites:
+    - map: primeiro.local
+      to: /home/vagrant/projetos/primeiro/public
 
--  map:  primeiro.local
-
-to:  /home/vagrant/projetos/primeiro/public
-
-  
-
--  map:  segundo.local
-
-to:  /home/vagrant/projetos/segundo/public
-
-  
+    - map: segundo.local
+      to: /home/vagrant/projetos/segundo/public
 
 #. Banco de dados que serão criados
-
 databases:
-
--  primeiro
-
--  segundo
-
-  
+    - primeiro
+    - segundo
 
 #. Olhar na documentação do laravel os recursos disponíveis, aqui você ativa ou desativa os recursos
-
 features:
-
--  mariadb:  true
-
-  
+    - mariadb:  true
 
 #. Redirecionamento de portas
-
 #. send => porta na máquina host
-
 #. to => porta na máquina virtual
-
 ports:
-
 #. MariaDB
-
--  send:  3306
+    - send:  3306
 
 to:  3306
 
@@ -439,5 +410,5 @@ homestead  ssh
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDQ3MzY1M119
+eyJoaXN0b3J5IjpbLTUyOTMwMTk3MV19
 -->
