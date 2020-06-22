@@ -247,59 +247,34 @@ cd  ~
 // Crie um arquivo .bash_profile
 nano  .bash_profile
 ```
+
 **Cole o código abaixo no arquivo criado**
-
 ```php
-
 #. Alguns atalhos para facilitar a navegação e o acesso
-
 alias  ..="cd .."
-
 alias  vm="ssh vagrant@127.0.0.1 -p 2222"
 
-  
-
 #. Atalho Homestead
-
 function  homestead() {
-
-( cd  ~/Homestead  &&  vagrant $* )
-
+    ( cd  ~/Homestead  &&  vagrant $* )
 }
-
 ```
-
-  
 
 <span  class="obs">**[OBS]** Reinicie o GitBash</span>
 
-  
-
 Agora você pode gerenciar a máquina virtual de qualquer lugar.
 
-  
-
 Exemplo:
-
 ```php
-
 // Iniciar a máquina virtual
-
 homestead  up
 
-  
-
 // Desligar a máquina virtual
-
 homestead  halt
 
-  
-
 // Acessar a máquina virtual via ssh
-
 homestead  ssh
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjcxNTM3M119
+eyJoaXN0b3J5IjpbLTE1ODM0MTg1MjVdfQ==
 -->
