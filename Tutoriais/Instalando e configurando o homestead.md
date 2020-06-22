@@ -9,12 +9,12 @@
 - [Configurar o arquivo Homestead.yaml](#configurar-o-arquivo-homestead-yaml)
 - [Editando o arquivo Homestead.yaml após a inicialização da máquina virtual](#editando-o-arquivo-homestead-yaml-apos-a-inicializacao-da-maquina-virtual)
 - [Configurar hostname no arquivo hosts do windows](#configurar-hostname-no-arquivo-hosts-do-windows)
-- [Iniciar o homestead](#Iniciar-o-homestead)
-- [Acessar os projetos](#Acessar-os-projetos)
-- [Acessar a máquina virtual via ssh](#Acessar-a-máquina-virtual-via-ssh)
-- [Excluir a máquina virtual](#Excluir-a-máquina-virtual)
-- [Conectando no banco de dados](#Conectando-no-banco-de-dados)
-- [Configurar o comando homestead para gerenciar a máquina virtual](#Configurar-o-comando-homestead-para-gerenciar-a-máquina-virtual)
+- [Iniciar o homestead](#iniciar-o-homestead)
+- [Acessar os projetos](#acessar-os-projetos)
+- [Acessar a máquina virtual via ssh](#acessar-a-maquina-virtual-via-ssh)
+- [Excluir a máquina virtual](#excluir-a-maquina-virtual)
+- [Conectando no banco de dados](#conectando-no-banco-de-dados)
+- [Configurar o comando homestead para gerenciar a máquina virtual](#configurar-o-comando-homestead-para-gerenciar-a-maquina-virtual)
 
 # Importante
 - Tutorial feito no windows 10 pro.
@@ -276,6 +276,6 @@ homestead  halt
 homestead  ssh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTQ4MjI4MSwtMjA5MzkyOTcyNSwtMT
+eyJoaXN0b3J5IjpbMTYzNzMzMjg4NywtMjA5MzkyOTcyNSwtMT
 U4MzQxODUyNV19
 -->
