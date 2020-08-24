@@ -10,9 +10,11 @@ Route::get('/produtos/{id?}', function ($id = 'false') {
 });
 ```
 ### Redirecionar rotas
-
+```php
+Route::get('/');
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTMxNzc2N119
+eyJoaXN0b3J5IjpbMTk4MDIyNDg2OV19
 -->
