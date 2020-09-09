@@ -5,7 +5,7 @@ Quando uma propriedade de uma classe é um objeto de outra classe.
 ### Agregação
 Quando uma propriedade de uma classe é um array com vários objetos de outra classe.
 
-### Composi
+### Composição
 
 
 ## MÓDULO 02
@@ -31,7 +31,7 @@ São ontologias com modelos de dados que representam um conjunto de conceitos po
 São sistemas fechados.
 Ex: Frameworks, CMS's quando se usa um framework ou cms o desenvolvedor tem que se adaptar as regras do framework.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDI4NTk5MCwxNjc3OTI1ODE3LDE0Mj
+eyJoaXN0b3J5IjpbMTA4NjQ0MzMwMSwxNjc3OTI1ODE3LDE0Mj
 A2NTI0MTcsMTYwOTY4ODM4Myw3Mzc0MDM2MjAsMTY5ODgyMDEy
 Nl19
 -->
