@@ -1,6 +1,6 @@
 # Orientação a objetos
 ## Associação
-Quando uma propriedade de uma classe é objeto de outra classe.
+Quando uma propriedade de uma classe é um objeto de outra classe.
 
 
 ## MÓDULO 02
@@ -26,6 +26,6 @@ São ontologias com modelos de dados que representam um conjunto de conceitos po
 São sistemas fechados.
 Ex: Frameworks, CMS's quando se usa um framework ou cms o desenvolvedor tem que se adaptar as regras do framework.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjU1MTY5NiwxNDIwNjUyNDE3LDE2MD
+eyJoaXN0b3J5IjpbLTM1MTg1NDUzMCwxNDIwNjUyNDE3LDE2MD
 k2ODgzODMsNzM3NDAzNjIwLDE2OTg4MjAxMjZdfQ==
 -->
