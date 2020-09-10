@@ -4,10 +4,10 @@ Quando um objeto externo é inserido em uma propriedade de uma classe.
 Quando uma propriedade de uma classe é um objeto de outra classe.
 
 ### Agregação
-Quando um objeto externo é enviado para uma propriedade de uma classe.
+Quando um objeto externo é inserido em uma propriedade de uma classe.
 
 ### Composição
-Quando o método A da classe A é responsável por criar um objeto classe B.
+Quando o método A da classe A é responsável por criar um objeto da classe B.
 
 
 ## MÓDULO 02
@@ -33,8 +33,8 @@ São ontologias com modelos de dados que representam um conjunto de conceitos po
 São sistemas fechados.
 Ex: Frameworks, CMS's quando se usa um framework ou cms o desenvolvedor tem que se adaptar as regras do framework.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4NzQwNTY3LC0xNzk5MzA1MDE2LC0yMT
-MzNjQyODEwLDEwODY0NDMzMDEsMTY3NzkyNTgxNywxNDIwNjUy
-NDE3LDE2MDk2ODgzODMsNzM3NDAzNjIwLDE2OTg4MjAxMjZdfQ
-==
+eyJoaXN0b3J5IjpbLTE3NjE0NDM0MTUsLTE3OTkzMDUwMTYsLT
+IxMzM2NDI4MTAsMTA4NjQ0MzMwMSwxNjc3OTI1ODE3LDE0MjA2
+NTI0MTcsMTYwOTY4ODM4Myw3Mzc0MDM2MjAsMTY5ODgyMDEyNl
+19
 -->
