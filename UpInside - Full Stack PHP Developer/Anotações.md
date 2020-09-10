@@ -3,11 +3,10 @@
 Quando uma propriedade de uma classe é um objeto de outra classe.
 
 ### Agregação
-Um ob
-Quando uma propriedade de uma classe é um array com vários objetos de outra classe.
+Quando um objeto externo é enviado para uma propriedade da classe.
 
 ### Composição
-Quando o método de uma classe é responsável por criar um objeto de outra classe.
+Quando o método A de uma classe A é responsável por criar um objeto de outra classe.
 
 
 ## MÓDULO 02
@@ -33,7 +32,7 @@ São ontologias com modelos de dados que representam um conjunto de conceitos po
 São sistemas fechados.
 Ex: Frameworks, CMS's quando se usa um framework ou cms o desenvolvedor tem que se adaptar as regras do framework.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMjgyMjg5LC0yMTMzNjQyODEwLDEwOD
-Y0NDMzMDEsMTY3NzkyNTgxNywxNDIwNjUyNDE3LDE2MDk2ODgz
-ODMsNzM3NDAzNjIwLDE2OTg4MjAxMjZdfQ==
+eyJoaXN0b3J5IjpbNjAwMDM3NTYsLTIxMzM2NDI4MTAsMTA4Nj
+Q0MzMwMSwxNjc3OTI1ODE3LDE0MjA2NTI0MTcsMTYwOTY4ODM4
+Myw3Mzc0MDM2MjAsMTY5ODgyMDEyNl19
 -->
