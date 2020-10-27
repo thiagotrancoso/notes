@@ -1,12 +1,14 @@
 ```php
 $user = User::find()
-	->select(['id', 'email'])
-	->from('user')
-	->where(['last_name' => 'Smith'])
-	->limit(10) ->createCommand();
+	->alias('u')
+	->select('id', 'name', 'email')
+	->innerJoin(table, on)
+	->where(['id' => 20])
+	->limit(10)
+	->createCommand();
 
 // mostra a instrução SQL
-echo $command->sql;
+echo $user->sql;
 
 // Mostra os parâmetros que serão ligados
 print_r($command->params);
@@ -15,5 +17,5 @@ print_r($command->params);
 $rows = $command->queryAll();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODcxNjM4OV19
+eyJoaXN0b3J5IjpbMjAxNzQ4MDAwN119
 -->
