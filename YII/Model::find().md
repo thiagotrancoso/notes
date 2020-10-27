@@ -11,11 +11,14 @@ $user = User::find()
 echo $user->sql;
 
 // Mostra os parâmetros que serão ligados
-print_r($command->params);
+print_r($user->params);
 
 // retorna todas as linhas do resultado da query
-$rows = $command->queryAll();
+$rows = $user->queryAll();
+
+// ->queryAll()
+// ->queryOne()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzQ4MDAwN119
+eyJoaXN0b3J5IjpbLTE5NzgzMTAxNDZdfQ==
 -->
