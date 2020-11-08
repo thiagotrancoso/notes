@@ -1,12 +1,16 @@
 
 ```php
 Route::get('/', function () {
-	ec
+	echo 'Teste';
 });
-Route::get();
-Route::get();
+
+Route::get('/', 'UserController@index');
+
+Route::get('/filme/{title?}', function ($title = null) {
+	echo "Titulo: {$title}";
+});
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTQyNTQ4NV19
+eyJoaXN0b3J5IjpbLTM2NDAwMzIzMF19
 -->
