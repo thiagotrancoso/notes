@@ -1,6 +1,6 @@
 ## Rotas
 **Sintaxe:**
-`$param1` URL que deseja acessar (.
+`$param1` URL que deseja acessar.
 `$param2` Closure.
 ```php
 Route::get($param1, $param2);
@@ -8,7 +8,7 @@ Route::get($param1, $param2);
 ## Exemplos
 ```php
 Route::get('/', function () {
-	echo 'Teste';
+	return 'Olá est';
 });
 ```
 
@@ -25,5 +25,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDg1ODMzMl19
+eyJoaXN0b3J5IjpbODIwMDg4NjY0XX0=
 -->
