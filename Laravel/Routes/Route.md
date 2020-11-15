@@ -19,8 +19,8 @@ Route::get('sobre', function () {
 
 ### Passando parâmetros pela url
 ```php
-Route::get('user/', function () {
-	return 'Olá esta é a página sobre.';
+Route::get('user/{name}', function ($name) {
+	return "Olá {$name}.";
 });
 ```
 
@@ -33,5 +33,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTM4MTk0NV19
+eyJoaXN0b3J5IjpbMTM4MDgwMjM4NF19
 -->
