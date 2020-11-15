@@ -12,9 +12,14 @@
 ```
 
 **Passando parâmetro pela URL**
-```php
+```html
 <a href="{{ route('user', 'Thiago') }}">Usuário</a>
 ```
+
+**IF - ELSE**
+```html
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU2MjMxNjBdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTk0MjUwNywtMjEwNTYyMzE2MF19
 -->
