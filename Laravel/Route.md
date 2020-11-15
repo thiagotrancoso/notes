@@ -55,12 +55,19 @@ Route::get('contato', function () {
 })->name('contact');
 ```
 
-**Retornando uma view do blade**
+**Exibindo uma view do blade**
 ```php
 Route::get('/', function () {
 	return view('nome-da-view');
 });
 ```
+
+**Enviando dados para a view**
+```php
+Route::get('user/{name?}', function ($name = 'convidado') {
+	return "Olá {$name}";
+})->where('title', "[A-Za-z]+");
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA2ODA5NDldfQ==
+eyJoaXN0b3J5IjpbOTQ2NzkxMTA3LC0xNjQwNjgwOTQ5XX0=
 -->
