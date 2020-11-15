@@ -65,9 +65,9 @@ Route::get('/', function () {
 **Enviando dados para a view**
 ```php
 Route::get('user/{name?}', function ($name = 'convidado') {
-	return "Olá {$name}";
-})->where('title', "[A-Za-z]+");
+	return view('user', ['name' => $name]);
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NzkxMTA3LC0xNjQwNjgwOTQ5XX0=
+eyJoaXN0b3J5IjpbMTcwOTM2NTUwMiwtMTY0MDY4MDk0OV19
 -->
