@@ -17,9 +17,13 @@
 ```
 
 **IF - ELSE**
-```html
-
+```php
+@if (auth()->guest())
+	Login
+@else
+	Olá {{ auth()->user()->name }}
+@endif
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTk0MjUwNywtMjEwNTYyMzE2MF19
+eyJoaXN0b3J5IjpbLTE1OTEzODA5MywtMjEwNTYyMzE2MF19
 -->
