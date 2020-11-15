@@ -4,8 +4,8 @@
 /routes/web.php
 ```
 
-**Sintaxe:**
-`$param1` URL que deseja acessar.
+**Sintaxe:**  
+`$param1` URL que deseja acessar.  
 `$param2` Closure.
 ```php
 Route::get($param1, $param2);
@@ -53,5 +53,5 @@ Route::get('contato', function () {
 })->name('contact');
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk5NzE3NDZdfQ==
+eyJoaXN0b3J5IjpbLTE1Mzg0MDYxNzhdfQ==
 -->
