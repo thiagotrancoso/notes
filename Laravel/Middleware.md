@@ -1,8 +1,8 @@
 #### Passando parâmetros para middleware
-Sinta
+**Sintaxe:**
 ```php
-middleware(['auth', 'roles:admin']);
+middleware(['middleware1', 'middleware2:param1,param2']);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU0MzU2MzVdfQ==
+eyJoaXN0b3J5IjpbOTUzNDA3ODYyXX0=
 -->
