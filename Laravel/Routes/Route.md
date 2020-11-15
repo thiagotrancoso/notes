@@ -8,7 +8,7 @@ Route::get($param1, $param2);
 ## Exemplos
 ```php
 Route::get('/', function () {
-	return 'Olá est';
+	return 'Olá esta é a página home.';
 });
 ```
 
@@ -25,5 +25,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMDg4NjY0XX0=
+eyJoaXN0b3J5IjpbNTA2MTk4MjU0XX0=
 -->
