@@ -1,5 +1,7 @@
-Arquivo de rotas
-
+Arquivo de rotas:
+```
+/routes/web.php
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM5NzIzNTVdfQ==
+eyJoaXN0b3J5IjpbNDM3MTQzNTIzXX0=
 -->
