@@ -41,6 +41,7 @@ Route::get('user/{name?}', function ($name = 'convidado') {
 Valida parâmetro com expressão regular.  
 ```php
 //Ex: não permitir que seja passado números pelo parâmetro.
+
 Route::get('user/{name?}', function ($name = 'convidado') {
 	return "Olá {$name}";
 })->where('title', "[A-Za-z]+");
@@ -53,5 +54,5 @@ Route::get('contato', function () {
 })->name('contact');
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDMxMzI1OF19
+eyJoaXN0b3J5IjpbLTYyMjA5NTQwXX0=
 -->
