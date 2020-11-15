@@ -5,19 +5,23 @@
 ```php
 Route::get($param1, $param2);
 ```
+
 ## Exemplos
 ```php
 Route::get('/', function () {
 	return 'Olá esta é a página home.';
 });
 
-Route::get('contato', function () {
-	return 'Olá esta é a página de contato.';
+Route::get('sobre', function () {
+	return 'Olá esta é a página sobre.';
 });
 ```
 
+### Passando parâmetros pela url
 ```php
-
+Route::get('user/', function () {
+	return 'Olá esta é a página sobre.';
+});
 ```
 
 ```php
@@ -29,5 +33,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYyMTMzODldfQ==
+eyJoaXN0b3J5IjpbMTc2OTM4MTk0NV19
 -->
