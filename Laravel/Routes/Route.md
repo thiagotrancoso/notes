@@ -10,6 +10,10 @@ Route::get($param1, $param2);
 Route::get('/', function () {
 	return 'Olá esta é a página home.';
 });
+
+Route::get('contato', function () {
+	return 'Olá esta é a página de contato.';
+});
 ```
 
 ```php
@@ -25,5 +29,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MTk4MjU0XX0=
+eyJoaXN0b3J5IjpbLTE4MTYyMTMzODldfQ==
 -->
