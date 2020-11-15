@@ -1,11 +1,11 @@
-### Exemplos:
-Sintaxe:
-`$param2` = Endereço a ser acessado.
-`$param2` = Closure.
+## Rotas
+**Sintaxe:**
+`$param1` URL que deseja acessar (.
+`$param2` Closure.
 ```php
 Route::get($param1, $param2);
 ```
-
+## Exemplos
 ```php
 Route::get('/', function () {
 	echo 'Teste';
@@ -25,5 +25,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ2OTM5NjhdfQ==
+eyJoaXN0b3J5IjpbMTgxNDg1ODMzMl19
 -->
