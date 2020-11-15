@@ -2,8 +2,8 @@
 
 **Diretório de views**
 ```php
-/resources/views
+/resources/views/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzYzNjQ4NF19
+eyJoaXN0b3J5IjpbMTM2MjA4ODgxMV19
 -->
