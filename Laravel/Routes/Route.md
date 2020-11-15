@@ -41,6 +41,8 @@ Route::get('user/{name?}', function ($name = 'convidado') {
 })->where('title', "[A-Za-z]+");
 ```
 
+**Nomear rotas**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjI5NTQxXX0=
+eyJoaXN0b3J5IjpbNDkyMDg3MzY0XX0=
 -->
