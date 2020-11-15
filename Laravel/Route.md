@@ -57,8 +57,10 @@ Route::get('contato', function () {
 
 **Retornando uma view do blade**
 ```php
-
+Route::get('/', function () {
+	return view('nome-da-view');
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4MTg5MTI4XX0=
+eyJoaXN0b3J5IjpbLTE2NDA2ODA5NDldfQ==
 -->
