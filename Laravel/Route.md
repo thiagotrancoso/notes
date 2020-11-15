@@ -1,4 +1,5 @@
-## Rotas
+# Rotas
+
 **Arquivo de rotas**
 ```php
 /routes/web.php
@@ -54,5 +55,5 @@ Route::get('contato', function () {
 })->name('contact');
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjQ5NjE3OF19
+eyJoaXN0b3J5IjpbLTEyNDQ1NDUwNDldfQ==
 -->
