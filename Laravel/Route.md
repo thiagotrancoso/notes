@@ -67,9 +67,10 @@ Route::get('/', function () {
 Route::get('user/{name?}', function ($name = 'convidado') {
 	// Formas de passar dados para a view
 	// return view('user', ['name' => $name]);
-	// return view('user')->with();
+	// return view('user')->with(['name' => $name]);
+	// return view('user', compact('name'));
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwMTQ1OTAwLC0xNjQwNjgwOTQ5XX0=
+eyJoaXN0b3J5IjpbMjA1MjE5MzMwMiwtMTY0MDY4MDk0OV19
 -->
