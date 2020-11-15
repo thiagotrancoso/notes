@@ -9,11 +9,11 @@ Route::get($param1, $param2);
 ## Exemplos
 ```php
 Route::get('/', function () {
-	return 'Olá esta é a página home.';
+	return 'Página home.';
 });
 
 Route::get('sobre', function () {
-	return 'Olá esta é a página sobre.';
+	return 'Página sobre.';
 });
 ```
 
@@ -42,7 +42,11 @@ Route::get('user/{name?}', function ($name = 'convidado') {
 ```
 
 **Nomear rotas**
-
+```php
+Route::get('contato', function () {
+	return 'Página de contato.';
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMDg3MzY0XX0=
+eyJoaXN0b3J5IjpbMzQzNjE5MjA2XX0=
 -->
