@@ -13,8 +13,8 @@
 
 **Passando parâmetro pela URL**
 ```php
-<a hre></a>
+<a href="{{ route('user', 'Thiago') }}">Usuário</a>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMDY3OTA2XX0=
+eyJoaXN0b3J5IjpbLTIxMDU2MjMxNjBdfQ==
 -->
