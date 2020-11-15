@@ -66,11 +66,11 @@ Route::get('/', function () {
 ```php
 Route::get('user/{name?}', function ($name = 'convidado') {
 	// Formas de passar dados para a view
-	// return view('user', ['name' => $name]);
-	// return view('user')->with(['name' => $name]);
-	// return view('user', compact('name'));
+	return view('user', ['name' => $name]);
+	return view('user')->with(['name' => $name]);
+	return view('user', compact('name'));
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjE5MzMwMiwtMTY0MDY4MDk0OV19
+eyJoaXN0b3J5IjpbLTUwNDU3NDYwMCwtMTY0MDY4MDk0OV19
 -->
