@@ -12,14 +12,14 @@ public function up ()
 	Schema::create('users', function (Blueprint $table) {
 		$table->increments('id');
 		$table->string('name');
-		$table->string('email')->uniq;
-		$table->string('');
-		$table->string('');
-		$table->string('');
+		$table->string('email')->unique();
+		$table->string('password');
+		$table->rememberToken();
+		$table->timestamps();
 	});
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDE3OTIwMSwtMTQ4MDA4MTY4NiwyMT
-M4NzA2Mzc2XX0=
+eyJoaXN0b3J5IjpbLTE2MTIzMDA2MDYsLTE0ODAwODE2ODYsMj
+EzODcwNjM3Nl19
 -->
