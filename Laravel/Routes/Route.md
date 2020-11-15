@@ -18,19 +18,20 @@ Route::get('sobre', function () {
 ```
 
 ### Passando parâmetros pela url
+**Parâmetro obrigatório**
 ```php
-// Parâmetro obrigatório
 Route::get('user/{name}', function ($name) {
 	return "Olá {$name}.";
 });
+```
 
-// Parâmetro opcional
+**Parâmetro opcional**
+```php
 Route::get('user/{name?}', function ($name = 'convidado') {
 	return "Olá {$name}.";
 });
-
 ```
-
+---
 ```php
 Route::get('/', 'UserController@index');
 
@@ -40,5 +41,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjA1OTk0OV19
+eyJoaXN0b3J5IjpbMTg4Njg0OTEyMl19
 -->
