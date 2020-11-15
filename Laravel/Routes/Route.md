@@ -24,7 +24,11 @@ Route::get('user/{name}', function ($name) {
 	return "Olá {$name}.";
 });
 
-// Parâmetro obrigatório
+// Parâmetro opcional
+Route::get('user/{name?}', function ($name = 'Thiago') {
+	return "Olá {$name}.";
+});
+
 ```
 
 ```php
@@ -36,5 +40,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjEzNTY0Nl19
+eyJoaXN0b3J5IjpbMTEwMzc5MzM4MF19
 -->
