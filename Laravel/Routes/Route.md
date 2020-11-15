@@ -1,12 +1,14 @@
 ### Exemplos:
+Sintaxe:
+
+```php
+Route::get($param1, $param2);
+```
+
 ```php
 Route::get('/', function () {
 	echo 'Teste';
 });
-```
-
-```php
-
 ```
 
 ```php
@@ -22,5 +24,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzQ3MDA2Ml19
+eyJoaXN0b3J5IjpbLTQyNTY2NTk5Ml19
 -->
