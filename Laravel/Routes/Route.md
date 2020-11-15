@@ -1,4 +1,9 @@
 ## Rotas
+**Arquivo de rotas**
+```php
+/routes/web.php
+```
+
 **Sintaxe:**
 `$param1` URL que deseja acessar.
 `$param2` Closure.
@@ -48,5 +53,5 @@ Route::get('contato', function () {
 })->name('contact');
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1NDA5NjAxXX0=
+eyJoaXN0b3J5IjpbLTEyMzk5NzE3NDYsOTQ1NDA5NjAxXX0=
 -->
