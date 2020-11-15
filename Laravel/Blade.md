@@ -7,8 +7,9 @@
 
 **Exibindo dados passados para a view**
 ```php
+// Exibindo o valor de uma variável.
 {{ $name }}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA5NzIzMjFdfQ==
+eyJoaXN0b3J5IjpbNTIzMTUxNjE4XX0=
 -->
