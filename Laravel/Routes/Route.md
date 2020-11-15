@@ -45,8 +45,8 @@ Route::get('user/{name?}', function ($name = 'convidado') {
 ```php
 Route::get('contato', function () {
 	return 'Página de contato.';
-});
+})->name('contact');
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzNjE5MjA2XX0=
+eyJoaXN0b3J5IjpbOTQ1NDA5NjAxXX0=
 -->
