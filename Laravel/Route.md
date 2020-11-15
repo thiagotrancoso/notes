@@ -54,6 +54,11 @@ Route::get('contato', function () {
 	return 'Página de contato.';
 })->name('contact');
 ```
+
+**Retornando uma view do blade**
+```php
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ1NDUwNDldfQ==
+eyJoaXN0b3J5IjpbODc4MTg5MTI4XX0=
 -->
