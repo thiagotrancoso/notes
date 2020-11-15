@@ -31,7 +31,10 @@ Route::get('user/{name?}', function ($name = 'convidado') {
 	return "Olá {$name}.";
 });
 ```
-****
+
+**Validar parâmetro**
+Valida parâmetro com expressão regular.
+Ex: não permitir que seja passado números pelo parâmetro.
 ```php
 Route::get('/filme/{title?}', function ($title = null) {
 	echo "Titulo: {$title}";
@@ -39,5 +42,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA1MTU0NzhdfQ==
+eyJoaXN0b3J5IjpbNDAxNjA2Nzk1XX0=
 -->
