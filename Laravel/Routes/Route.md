@@ -25,7 +25,7 @@ Route::get('user/{name}', function ($name) {
 });
 
 // Parâmetro opcional
-Route::get('user/{name?}', function ($name = 'Thiago') {
+Route::get('user/{name?}', function ($name = 'convidado') {
 	return "Olá {$name}.";
 });
 
@@ -40,5 +40,5 @@ Route::get('/filme/{title?}', function ($title = null) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzc5MzM4MF19
+eyJoaXN0b3J5IjpbMTQ3NjA1OTk0OV19
 -->
