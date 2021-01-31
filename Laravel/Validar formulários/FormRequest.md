@@ -28,9 +28,11 @@ public function contact(ContactRequest $request)
 {
 	$data = $request->all();
 	
-	return redirect('/');
+	return redirect()
+		->route('contact')
+		->with('info', 'Mensagem e');
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Nzk0OTQ4Niw1NjQ1MjgwNjRdfQ==
+eyJoaXN0b3J5IjpbMTY0NjczMDE5MCw1NjQ1MjgwNjRdfQ==
 -->
