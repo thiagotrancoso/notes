@@ -6,9 +6,11 @@
 // Persistir a informação de um campo
 {{ old('name') }}
 
-@if()
-@
+// Exibindo mensagem que está na sessão
+@if(session()->has('info'))
+	{{ session('info') }}
+@endif
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzM5OTI1Ml19
+eyJoaXN0b3J5IjpbLTY0MDk1MjM1OF19
 -->
