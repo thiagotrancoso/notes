@@ -7,11 +7,12 @@ public function contact(Request $request)
 		$request,
 		'name'  => 'required',
 		'email' => 'required|email',
+        // 'email' => ['required', 'email'],
 	);
 
 	return $request->all();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1Mjg5MDU3XX0=
+eyJoaXN0b3J5IjpbMTM5MzM3NDI5M119
 -->
