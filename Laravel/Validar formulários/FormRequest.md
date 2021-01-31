@@ -1,8 +1,7 @@
 ### Comando para criar
-
 ```
-php artisan make:request CreateMessageRequest
+php artisan make:request MessageRequest
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA1NDA5NzhdfQ==
+eyJoaXN0b3J5IjpbMjAwMjEzNzY5Nl19
 -->
