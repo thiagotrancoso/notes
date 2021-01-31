@@ -30,9 +30,9 @@ public function contact(ContactRequest $request)
 	
 	return redirect()
 		->route('contact')
-		->with('info', 'Mensagem e');
+		->with('info', 'Mensagem enviada com sucesso!');
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjczMDE5MCw1NjQ1MjgwNjRdfQ==
+eyJoaXN0b3J5IjpbODQ1MjM1NDMwLDU2NDUyODA2NF19
 -->
