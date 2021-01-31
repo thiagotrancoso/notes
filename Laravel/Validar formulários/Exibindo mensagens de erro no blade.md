@@ -1,7 +1,7 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+```php
+// Obtém o primeiro erro do campo name
+{{ $errors->first('name') }}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTk2NjM4Mzg0M119
 -->
