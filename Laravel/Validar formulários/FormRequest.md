@@ -1,6 +1,6 @@
 ### Comando para criar
 ```
-php artisan make:request MessageRequest
+php artisan make:request ContactRequest 
 ```
 
 ### Modelo da classe
@@ -26,17 +26,9 @@ public function rules()
 ```php
 public function contact(ContactRequest $request)
 {
-	$this->validade(
-		$request,
-		'name'    => 'required',
-		'email'   => 'required|email',
-        // 'email' => ['required', 'email'],
-        'message' => 'required|min:5',
-	);
-
 	return $request->all();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MjQyMTRdfQ==
+eyJoaXN0b3J5IjpbNTY0NTI4MDY0XX0=
 -->
