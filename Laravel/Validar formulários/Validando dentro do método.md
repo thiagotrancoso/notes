@@ -8,12 +8,12 @@ public function contact(Request $request)
 		'name'    => 'required',
 		'email'   => 'required|email',
         // 'email' => ['required', 'email'],
-        'mensage' => 'required|min:5',
+        'message' => 'required|min:5',
 	);
 
 	return $request->all();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDk4NjI5Nl19
+eyJoaXN0b3J5IjpbMTUzODQ5ODU1N119
 -->
