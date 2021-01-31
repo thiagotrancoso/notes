@@ -1,10 +1,10 @@
 ```php
-// Obtém o primeiro erro do campo name
+// Obtém o primeiro erro de um campo
 {{ $errors->first('name') }}
 
-// Persistir os dados no formulário
+// Persistir a informação de um campo
 {{ old('name') }}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzA2MTI0OV19
+eyJoaXN0b3J5IjpbMjAzNDgxNDI3XX0=
 -->
