@@ -5,8 +5,8 @@ public function contact(Request $request)
 {
 	$this->validade(
 		$request,
-		'name'  => 'required',
-		'email' => 'required|email',
+		'name'    => 'required',
+		'email'   => 'required|email',
         // 'email' => ['required', 'email'],
         'mensage' => 'required|min:5',
 	);
@@ -15,5 +15,5 @@ public function contact(Request $request)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMjMzODQ4XX0=
+eyJoaXN0b3J5IjpbMjA5NDk4NjI5Nl19
 -->
