@@ -31,8 +31,12 @@ public function contact(ContactRequest $request)
 	return redirect()
 		->route('contact')
 		->with('info', 'Mensagem enviada com sucesso!');
+
+	return back()
+		->with('info', 'Mensagem enviada com sucesso!');
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MjM1NDMwLDU2NDUyODA2NF19
+eyJoaXN0b3J5IjpbLTExMTM0MTI2MzEsODQ1MjM1NDMwLDU2ND
+UyODA2NF19
 -->
