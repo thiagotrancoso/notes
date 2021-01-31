@@ -26,9 +26,9 @@ public function rules()
 ```php
 public function contact(ContactRequest $request)
 {
-	return $request->all();
+urn $request->all();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0NTI4MDY0XX0=
+eyJoaXN0b3J5IjpbLTEyOTgwNzAwNTEsNTY0NTI4MDY0XX0=
 -->
