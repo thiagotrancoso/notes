@@ -5,10 +5,13 @@ public function contact(Request $request)
 {
 	$this->validade(
 		$request,
-		'name' => 'required'
+		'name'  => 'required',
+		'email' => 'email',
 	);
+
+	return $request->all();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTAxNjg5OV19
+eyJoaXN0b3J5IjpbOTM4MDI5MzIxXX0=
 -->
